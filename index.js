@@ -62,7 +62,7 @@ function co(gen) {
     function onFulfilled(res) {
       var ret;
       try {
-        ret = gen.next(res);
+        ret = gen.next([null, res]);
       } catch (e) {
         return reject(e);
       }
@@ -79,7 +79,7 @@ function co(gen) {
     function onRejected(err) {
       var ret;
       try {
-        ret = gen.throw(err);
+        ret = gen.next([err, null]);
       } catch (e) {
         return reject(e);
       }

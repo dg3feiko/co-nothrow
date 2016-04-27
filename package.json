@@ -1,19 +1,19 @@
 {
-  "name": "co",
-  "version": "4.6.0",
-  "description": "generator async control flow goodness",
+  "name": "co-nothrow",
+  "version": "0.0.1",
+  "description": "A no-throw version of co.js, better for explicit error handling.",
   "keywords": [
     "async",
     "flow",
     "generator",
     "coro",
-    "coroutine"
+    "coroutine",
+    "nothrow"
   ],
   "devDependencies": {
     "browserify": "^10.0.0",
     "istanbul-harmony": "0",
     "mocha": "^2.0.0",
-    "mz": "^1.0.2"
   },
   "scripts": {
     "test": "mocha --harmony",
@@ -27,7 +27,7 @@
     "index.js"
   ],
   "license": "MIT",
-  "repository": "tj/co",
+  "repository": "dg3feiko/co-nothrow",
   "engines": {
     "iojs": ">= 1.0.0",
     "node": ">= 0.12.0"

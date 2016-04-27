@@ -1,15 +1,16 @@
 {
-  "name": "co",
-  "version": "4.4.0",
-  "description": "generator async control flow goodness",
+  "name": "co-nothrow",
+  "version": "0.0.1",
+  "description": "A no-throw version of co.js, better for explicit error handling.",
   "keywords": [
     "async",
     "flow",
     "generator",
     "coro",
-    "coroutine"
+    "coroutine",
+    "no-throw"
   ],
-  "repo": "tj/co",
+  "repo": "dg3feiko/co-nothrow",
   "scripts": ["index.js"],
   "licence": "MIT"
 }
