@@ -1,7 +1,8 @@
 # co-nothrow
 
-  A no-throw style of [co.js](https://github.com/ty/co), better for explicit error handling.
+  A no-throw style of [co.js](https://github.com/ty/co), better for explicit error handling like that in Go and Lua.
 
+## Usage and Comparison
 
 Originally with `co.js`
 
