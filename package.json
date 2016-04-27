@@ -13,7 +13,7 @@
   "devDependencies": {
     "browserify": "^10.0.0",
     "istanbul-harmony": "0",
-    "mocha": "^2.0.0",
+    "mocha": "^2.0.0"
   },
   "scripts": {
     "test": "mocha --harmony",
