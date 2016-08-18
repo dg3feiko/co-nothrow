@@ -27,7 +27,7 @@ co(function *() {
 	if(ret[0]){
 		return reportError(ret[0])
 	}
-	//continue with result in ret[0]
+	//continue with result in ret[1]
 });
 ```
 
